@@ -1,4 +1,4 @@
-.mat-conteiner {
+.mat-container {
   width: 700px;  
   border-radius: 10px;
   align-items: center;
@@ -8,22 +8,20 @@
 }
 
 @media (max-width: 768px){
-    .mat-conteiner{
-        width: 680px;
-        margin-top: 200px;
+    .mat-container{
+        width: 680px;       
     }
 }
 
 @media (max-width: 480px){
-    .mat-conteiner{
+    .mat-container{
         width: 390px;        
     }
 }
 
 @media (max-width: 400px){
-    .mat-conteiner{
-        width: 330px;
-        margin-top: 20px;
+    .mat-container{
+        width: 330px;        
     }
 }
 
