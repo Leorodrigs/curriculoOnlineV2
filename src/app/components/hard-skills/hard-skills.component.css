@@ -1,0 +1,61 @@
+img {
+    width: 60px;
+    height: 60px;    
+}
+
+
+@media (max-width: 768px) {
+    img {
+        width: 40px;
+        height: 40px; 
+        margin: 2px 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    img {
+        width: 30px;
+        height: 30px; 
+        margin: 2px 10px;
+    }
+}
+
+.hardSkills {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .hardSkills {
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+}
+
+@media (max-width: 400px) {
+    .hardSkills {
+        grid-template-columns: repeat(5, 1fr);
+        
+    }
+}
+
+mat-expansion-panel {
+    margin: 10px;
+    background: rgb(255, 255, 255);
+}
+
+@media (max-width: 480px) {
+    mat-expansion-panel {
+        width: 380px;
+    }
+}
+
+@media (max-width: 400px) {
+    mat-expansion-panel {
+        width: 310px;
+        margin-left: 27px;
+    }
+}

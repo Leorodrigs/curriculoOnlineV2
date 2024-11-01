@@ -1,0 +1,13 @@
+app-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    background: -webkit-radial-gradient(rgb(255, 255, 255), black); 
+    height: 100vh;   
+}
+
+
+

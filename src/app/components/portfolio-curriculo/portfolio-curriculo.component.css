@@ -1,0 +1,21 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin: 0px 40px 0px 40px;
+}
+
+.githubIcon {
+    width: 45px;   
+}
+
+.resumeIcon {
+    width: 35px;      
+}
+
+.linkedinIcon {
+    width: 44px;     
+}

@@ -1,0 +1,13 @@
+
+    <mat-expansion-panel (opened)="panelOpenState.set(true)" (closed)="panelOpenState.set(false)">
+      <mat-expansion-panel-header>
+        <mat-panel-title><strong>Soft Skills</strong></mat-panel-title>        
+      </mat-expansion-panel-header>
+      <div class="grid"><ul class="gridItens">
+        <li *ngFor="let skill of skills">{{ skill }}</li>
+        
+      </ul> 
+    </div>   
+    </mat-expansion-panel>
+
+  

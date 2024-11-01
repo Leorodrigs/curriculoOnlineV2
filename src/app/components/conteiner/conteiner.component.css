@@ -1,0 +1,32 @@
+.mat-conteiner {
+  width: 700px;  
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;  
+  background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(230, 230, 230));
+}
+
+@media (max-width: 768px){
+    .mat-conteiner{
+        width: 680px;
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 480px){
+    .mat-conteiner{
+        width: 390px;        
+    }
+}
+
+@media (max-width: 400px){
+    .mat-conteiner{
+        width: 330px;
+        margin-top: 20px;
+    }
+}
+
+.mat-mdc-card-content:last-child {
+  padding-bottom: 5px;
+}
